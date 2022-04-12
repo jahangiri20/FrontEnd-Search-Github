@@ -7,6 +7,7 @@ const showUser = document.querySelector(".show__user");
 const post = document.querySelector(".post");
 const userFollowing = document.querySelector(".user__Following");
 const userFollowers = document.querySelector(".user__Followers");
+const apiShow = document.querySelector(".api__show");
 
 
 
@@ -22,6 +23,7 @@ btnSearch.addEventListener ("click", (event)=>{
     })
     .then((data) => {
         render(data);
+        apiShow.className = 'api__show';
     });
 });
 
