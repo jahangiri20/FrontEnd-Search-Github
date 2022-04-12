@@ -1,0 +1,149 @@
+.api__back{
+    background: linear-gradient(to left , var(--blue_color) 50% , #b9c1cc 50%);
+    height: 800px;
+    width: 100%;
+    padding: 2rem;
+}
+.api__me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #ffff;
+    margin: 2rem 8rem 2rem 8rem;
+    padding: 2rem;
+    gap: 5rem;
+    border-radius: 0.5rem;
+    
+
+}
+.api__title{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+
+}
+.api__title i{
+    padding-left: 2rem;
+    font-size: 5rem;
+}
+.api__user{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+   
+    
+    
+}
+.searchs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 3rem;
+    border-bottom: 0.5rem solid #BDF9C7;
+}
+.search{
+    display: flex;
+    
+   font-size: 3rem;
+   
+}
+.icon__search{
+    font-size: 3rem;
+    margin-left: 4rem;
+    color: darkblue
+}
+.icon__search:hover{
+    
+    
+    
+    
+    
+  
+}
+ #inputName{
+     border: transparent;
+     padding: 0.5rem 53rem 0.5rem 5rem;
+     
+ } 
+ input{
+    
+ }
+#lab{
+    color: darkblue;
+    font-size: 2rem;
+  
+    
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+.api__show{
+   
+    background-color: white;
+    
+   
+    font-size: 2rem;
+    
+}
+.show__user{
+    color: darkblue;
+    font-size: 2rem;
+    width: 100%;
+ 
+   
+}
+.avatar{
+ 
+    
+    
+}
+.photo img{
+    
+    border: solid 0.5rem #BDF9C7;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    padding: 1rem;
+    
+
+}
+.show__details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+   
+  
+}
+.show__details--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+.show__details--bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   
+    
+}
+.show{
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+.post{
+    
+    
