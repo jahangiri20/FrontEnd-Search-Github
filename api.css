@@ -16,6 +16,7 @@
     padding: 2rem;
     gap: 6rem;
     border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 16px 16px;
     
 
 }
@@ -46,8 +47,8 @@
 
 .icon__search{
     font-size: 2.5rem;
-    
-    color: darkblue;
+    cursor: pointer;
+    color: var(--blue_color)
    
 }
 .icon__search:hover{
@@ -80,6 +81,7 @@
     
     margin: 8rem;
     padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 16px 16px;
 }
 .show{
     border: 0.5rem solid #BDF9C7;  
@@ -101,13 +103,17 @@
 .photo img{
     
     border: solid 0.2rem var(--blue_color);
-    width: 55%;
+    width: 50%;
     height: auto;
     border-radius: 50%;
-    padding: 1rem;
-    background-color: white
+    padding: 0.5rem;
+    background-color: white;
+    
     
 
+}
+.photo img:hover{
+    transform: scale(1.2);
 }
 .show__details{
     display: flex;

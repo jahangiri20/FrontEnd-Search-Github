@@ -24,15 +24,18 @@ btnSearch.addEventListener ("click", (event)=>{
     .then((data) => {
         render(data);
         apiShow.className = 'api__show';
+        
     });
 });
 
   function render(data) {
     const { avatar_url, hireable, following, followers, location, name , public_repos } = data;
     imgAvatar.src = avatar_url;
-    showUser.innerText = name;
+     
+    showUser.innerText = name; 
+     
     post.innerText = public_repos;
-    userFollowers.innerText = followers ;
+    userFollowers.innerText = followers;
     userFollowing.innerText = following;
     
     

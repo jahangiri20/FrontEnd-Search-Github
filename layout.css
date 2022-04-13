@@ -24,6 +24,7 @@ html {
     font-size: 1.5rem;
     
     background-image: url("./download.jpg");
+    background-size: cover;
     
     
   }
