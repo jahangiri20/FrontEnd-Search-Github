@@ -33,7 +33,8 @@ btnSearch.addEventListener ("click", (event)=>{
   function render(data) {
     const { avatar_url, hireable, following, followers, location, name , public_repos , id , login , html_url} = data;
     imgAvatar.src = avatar_url;
-    showUser.innerText = name; 
+    showUser.innerText = login; 
+    
 
     showUerLogin.href = html_url;
     locations.innerText = location;
