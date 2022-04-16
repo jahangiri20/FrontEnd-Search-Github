@@ -21,12 +21,13 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
     background-image: url("./download.jpg");
     background-size: cover;
-    
-    
+     
+  }
+  .hidden{
+    display: none;
   }
 .container{
     width: 100%;
@@ -34,23 +35,20 @@ html {
     
     padding: 8rem;
     
-    
-
 }
 /* Container Media Query */
 @media only screen and (min-width: 576px) {
   .container {
-    max-width: 540px;
-   
-  
+    max-width: 100%
+
   }
- 
+
 } 
 
 
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
     
   }
 
@@ -58,24 +56,17 @@ html {
 
 @media only screen and (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .container {
-    max-width: 1320px;
-  }
-}
-
-
-  
-.hidden{
-  display: none;
+    max-width: 100%;
 }
