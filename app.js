@@ -10,10 +10,12 @@ const post = document.querySelector(".post");
 const userFollowing = document.querySelector(".user__Following");
 const userFollowers = document.querySelector(".user__Followers");
 const apiShow = document.querySelector(".api__show");
+const disign = document.querySelectorAll("b");
 
 
 
-btnSearch.addEventListener ("click", (event)=>{
+
+btnSearch.addEventListener ("click", ()=>{
     let searchs = inputName.value;
     if(!searchs){
         alert("enter type user name")
@@ -26,6 +28,8 @@ btnSearch.addEventListener ("click", (event)=>{
     .then((data) => {
         render(data);
         apiShow.className ='api__show'; 
+       
+
     });
     
 });
@@ -38,13 +42,14 @@ btnSearch.addEventListener ("click", (event)=>{
 
     showUerLogin.href = html_url;
     locations.innerText = location;
-    post.innerText = [public_repos + ' ' + 'Repositores'] ;
-    userFollowers.innerText =[followers + ' ' +'followersss'] ;
-    userFollowing.textContent = [following + ' ' + 'following'];
-
+    post.innerText = [public_repos + '  ' + 'Repositores'] ;
+    userFollowers.innerText =[followers + '  ' +'Followers'] ;
+    userFollowing.textContent = [following + '  ' + 'Following'];
+    
     console.log(); 
     
   }
+ 
   
   
 

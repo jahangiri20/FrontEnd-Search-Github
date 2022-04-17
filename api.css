@@ -4,6 +4,7 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 1rem;
     
+    
 }
 .api__me{
     display: grid;
@@ -74,13 +75,14 @@
 
 .api__show{
     
-    background-color: white;
+    background-color:  white;
     font-size: 2rem;
     border-radius: 1rem;
     
     margin: 8rem;
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 16px 16px;
+    
 }
 .show{
     border: 0.5rem solid #BDF9C7;  
