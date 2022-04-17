@@ -54,9 +54,7 @@
 .icon__search:hover{
     
   color: #BDF9C7;
-    
-    
-    
+   
   
 }
  #inputName{
@@ -89,18 +87,7 @@
     padding: 2rem;
     border-radius: 1rem;
 }
-.show__user{
-    
-    
- 
- 
-   
-}
-.avatar{
- 
-    
-    
-}
+
 .photo img{
     
     border: solid 0.2rem var(--blue_color);
@@ -110,7 +97,7 @@
     padding: 0.5rem;
     margin-left: 3rem;
     background-color: white;
-    
+    cursor: pointer;
     
 
 }
@@ -130,6 +117,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.5rem;
+    
    
     
 }
@@ -146,14 +134,14 @@
 
 }
 
-.user__Followers{
-   
-}
-
 .disign{
     color: gray;
-}
 
+}
+.disign2{
+    font-size: 1.5rem;
+    color: gray;
+}
 
 
 .show__user--login{
@@ -161,4 +149,12 @@
     text-decoration: none;
     
     
+}
+.show__namse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.show__user{
+    color: darkblue;
 }
