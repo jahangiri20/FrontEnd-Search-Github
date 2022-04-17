@@ -10,7 +10,7 @@ const post = document.querySelector(".post");
 const userFollowing = document.querySelector(".user__Following");
 const userFollowers = document.querySelector(".user__Followers");
 const apiShow = document.querySelector(".api__show");
-const disign = document.querySelectorAll("b");
+
 
 
 
@@ -38,8 +38,6 @@ btnSearch.addEventListener ("click", ()=>{
     const { avatar_url, hireable, following, followers, location, name , public_repos , id , login , html_url} = data;
     imgAvatar.src = avatar_url;
     showUser.innerText = login; 
-    
-
     showUerLogin.href = html_url;
     locations.innerText = location;
     post.innerText = [public_repos + '  ' + 'Repositores'] ;
